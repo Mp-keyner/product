@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botones Cambio de Color</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .botones {
+        display: flex;
+      }
+
+      .boton {
+        padding: 10px 20px;
+        margin-right: 10px;
+        background-color: #ccc;
+        border: none;
+        cursor: pointer;
+      }
+
+      .boton.active {
+        background-color: #ff6347;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="botones">
+      <button class="boton" onclick="cambiarColor(1)">Botón 1</button>
+      <button class="boton" onclick="cambiarColor(2)">Botón 2</button>
+      <button class="boton" onclick="cambiarColor(3)">Botón 3</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <script>
+    let botones = document.querySelectorAll(".boton");
+
+    function cambiarColor(num) {
+      botones.forEach((boton, index) => {
+        if (index === num - 1) {
+          boton.classList.add("active");
+        } else {
+          boton.classList.remove("active");
+        }
+      });
+    }
+  </script>
+</html>
