@@ -3,8 +3,9 @@ const aro = document.getElementById("nomm");
 const botom = document.getElementById("botom");
 const add = document.querySelector(".add");
 const title = document.querySelector(".title");
+const mueble = document.getElementById("mueble")
 
-function ko(x, y) {
+function ko(x, y, z) {
   const element = document.getElementById(x);
 
   if (selectedButton !== null) {
@@ -16,6 +17,7 @@ function ko(x, y) {
   add.style.background = `${y}`;
   title.style.color = `${y}`;
   botom.style.background = `${y}`;
+  mueble.src = z
   if (y == "#98926d") {
     botom.style.color = "black";
   } else {
