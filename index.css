@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all 0.5s ease-in-out;
 }
 nav {
   display: flex;
@@ -90,11 +89,11 @@ main {
 }
 .fondo {
   width: 47pc;
-  height: 57pc;
+  height: 77pc;
   background: #694604;
   border-radius: 50%;
   position: absolute;
-  top: -9pc;
+  top: -20pc;
   right: -18pc;
   z-index: -9999;
   display: flex;
@@ -103,7 +102,7 @@ main {
 }
 .fondo div {
   width: 37pc;
-  height: 47pc;
+  height: 67pc;
   background-color: #f2f2f2;
   border-radius: 50%;
   display: flex;
@@ -112,7 +111,7 @@ main {
 }
 .fondo div div {
   width: 27pc;
-  height: 39pc;
+  height: 59pc;
   background-color: white;
   border-radius: 50%;
 }
@@ -130,4 +129,8 @@ main {
 }
 .btn:nth-child(4) div {
   background-color: #2b461a;
+}
+#mueble{
+    position: absolute;
+    width: 30pc;
 }
