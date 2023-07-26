@@ -1,118 +1,121 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px 0;
-}
-body {
-  padding: 0 80px;
-  overflow: hidden;
-  background-color: #f2f2f2;
-}
-.menu {
-  width: 35px;
-}
-.title {
-  font-weight: 100;
-  width: 200px;
-  border: 1px solid red;
-  color: #5d5f37;
-}
-.descri {
-  color: #888;
-  font-family: Poppins;
-  border: 1px solid red;
-  width: 342px;
-}
-.dere {
-  border: 1px solid blue;
-}
-
-.boton div {
-  width: 2pc;
-  height: 2pc;
-  border-radius: 50%;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.boton div div {
-  background-color: blue;
-  width: 1.2pc;
-  height: 1.2pc;
-}
-.containerIz {
-  display: flex;
-  flex-direction: column;
-  gap: 1pc;
-}
-.botons {
-  border-radius: 9px;
-  background: #aea260;
-  padding: 10px 21px;
-  border: none;
-  font-weight: bold;
-}
-.centrar {
-  display: flex;
-  align-items: center;
-  gap: 1pc;
-}
-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.dere {
-  display: flex;
-  flex-direction: column;
-  gap: 1pc;
-  align-items: center;
-}
-.titl {
-  font-size: 2pc;
-  font-weight: bold;
-}
-.add {
-  background: #585934;
-  font-size: 2pc;
-  text-align: center;
-  color: white;
-  border-radius: 50%;
-  border: none;
-  width: 2.2pc;
-  height: 2.2pc;
-}
-.fondo {
-  width: 47pc;
-  height: 57pc;
-  background-color: red;
-  border-radius: 50%;
-  position: absolute;
-  top: -9pc;
-  right: -18pc;
-  z-index: -9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fondo div {
-  width: 37pc;
-  height: 47pc;
-  background-color: #f2f2f2;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fondo div div {
-  width: 27pc;
-  height: 39pc;
-  background-color: white;
-  border-radius: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+  }
+  body {
+    padding: 0 80px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  .menu {
+    width: 35px;
+  }
+  .title {
+    font-weight: 100;
+    width: 200px;
+    border: 1px solid red;
+    color: #5d5f37;
+  }
+  .descri {
+    color: #888;
+    font-family: Poppins;
+    border: 1px solid red;
+    width: 342px;
+  }
+  .dere {
+    border: 1px solid blue;
+  }
+  
+  .boton div {
+    width: 2pc;
+    height: 2pc;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boton div div {
+    background-color: blue;
+    width: 1.2pc;
+    height: 1.2pc;
+  }
+  .containerIz {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+  }
+  .botons {
+    border-radius: 9px;
+    background: #aea260;
+    padding: 10px 21px;
+    border: none;
+    font-weight: bold;
+  }
+  .centrar {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dere {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    align-items: center;
+  }
+  .titl {
+    font-size: 2pc;
+    font-weight: bold;
+  }
+  .add {
+    background: #585934;
+    font-size: 2pc;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 2.2pc;
+    height: 2.2pc;
+  }
+  .fondo {
+    width: 47pc;
+    height: 57pc;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -9pc;
+    right: -18pc;
+    z-index: -9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fondo div {
+    width: 37pc;
+    height: 47pc;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fondo div div {
+    width: 27pc;
+    height: 39pc;
+    background-color: white;
+    border-radius: 50%;
+  }
+#div1{
+    background-color: green
 }
