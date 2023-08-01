@@ -12,5 +12,5 @@ link del [diseño](https://www.figma.com/file/RvazqqW1RfaPwpqHa1lC3C/Fashion-Bra
 #AEA260
 
 
-<br>
-<p>[Tablas](https://www.htmlquick.com/es/tutorials/tables.html)</p>
+
+[Tablas](https://www.htmlquick.com/es/tutorials/tables.html)
