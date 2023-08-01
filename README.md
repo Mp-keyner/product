@@ -13,4 +13,4 @@ link del [diseño](https://www.figma.com/file/RvazqqW1RfaPwpqHa1lC3C/Fashion-Bra
 
 
 <br>
-[tablas](https://www.htmlquick.com/es/tutorials/tables.html)
+<p>[Tablas](https://www.htmlquick.com/es/tutorials/tables.html)</p>
