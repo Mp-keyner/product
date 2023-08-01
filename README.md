@@ -10,3 +10,7 @@ link del [diseño](https://www.figma.com/file/RvazqqW1RfaPwpqHa1lC3C/Fashion-Bra
 
 ## Color del botom 
 #AEA260
+
+
+<br>
+[tablas](https://www.htmlquick.com/es/tutorials/tables.html)
